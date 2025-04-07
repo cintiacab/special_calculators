@@ -1,6 +1,6 @@
 from typing import Dict, List
 from pytest import raises
-from .calculator_3 import Calculator3
+from .calculator_3 import Calculator3 # type: ignore
 
 class MockRequest:
     def __init__(self, body: Dict) -> None:

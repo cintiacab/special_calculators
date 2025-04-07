@@ -1,7 +1,7 @@
 from typing import Dict, List
 from flask import request as FlaskResquest
 from src.drivers.interfaces.driver_handler_interface import DriverHandlerInterface
-from src.errors.http_unprocessable_entity import HttpUnprocessableEntityError
+from src.errors.http_unprocessable_entity import HttpUnprocessableEntityError # type: ignore
 
 
 class Calculator2:
